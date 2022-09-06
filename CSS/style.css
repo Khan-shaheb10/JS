@@ -1,0 +1,65 @@
+.slide img {
+  width: 100%;
+  display: block;
+}
+#mySliderSection {
+  position: relative;
+}
+.arrows .leftArrow,
+.arrows .rightArrow {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 211, 51);
+  color: #000;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  z-index: 9999;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrows .leftArrow {
+  left: 32%;
+}
+
+.arrows .rightArrow {
+  right: 32%;
+}
+
+#mySliderSection .slick-dots {
+  text-align: center;
+  list-style-type: none;
+}
+#mySliderSection .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+#mySliderSection .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  background-color: #2c2c2c;
+  color: transparent;
+  border-radius: 50%;
+  display: block;
+}
+.slide {
+  padding: 0 15px;
+}
+
+#mySliderSection .slick-dots li.slick-active button {
+  background-color: #ccc;
+}
+
+.delete {
+  border: none;
+  outline: none;
+  background-color: #f00;
+  color: white;
+  padding: 15px 23px;
+  display: inline-block;
+}
